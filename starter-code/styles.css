@@ -1,0 +1,187 @@
+/* Navbar CSS */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+  font-family: sans-serif;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  vertical-align: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  vertical-align: center;
+  margin-left: 20px;
+  float: left;
+}
+
+/* Header CCS */
+  /* HEADER: Search Bar */
+header {
+  color: white;
+  background-color: rgb(31,101,136);
+  font-family: sans-serif;
+}
+
+header a {
+  display: inline;
+  color: white;
+}
+
+.search-bar {
+  background-color: rgb(31, 82, 111);
+}
+
+.logo-left img {
+  float: left;
+  margin: 15px 20px 20px 10px;
+  height: 25px;
+}
+
+.login-top-right {
+  float: right;
+  vertical-align: center;
+  margin-top: 15px;
+}
+
+.login-top-right a {
+  float: right;
+  height: 15px;
+}
+
+.login-top-right img {
+  margin: 0px 20px 20px 10px;
+  float: right;
+  height: 20px;
+}
+
+.search-bar input {
+  display: inline-block;
+  margin: 15px 20px 20px 10px;
+  width: 50%;
+  padding: 3px;
+}
+
+  /* HEADER: Content */
+
+.central-header {
+  background-image: url(./images/city-scape.svg);
+  background-size: contain;
+  background-position: center;
+  margin: 5% 20% 0% 20%;
+  padding-bottom: 100px;
+}
+
+.central-header p {
+  width: 70%;
+}
+
+.button {
+  border-radius: 50px;
+  float: left;
+  padding: 10px 15px;
+  background-color: rgb(240, 146, 51);
+}
+
+/* Middle Section */
+  /* MIDDLE: Collaboration */
+
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  font-family: sans-serif;
+  padding: 100px 50px 100px 50px;
+
+}
+
+.collaboration a {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+.collaboration img {
+  height: 200px;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 2%;
+  display: inline-block;
+}
+
+.collaboration-content {
+  display: inline-block;
+  align-items: flex-end;
+  width: 40%;
+}
+
+  /* MIDDLE: What is npm? */
+
+.npm-explained {
+  background-size: cover;
+  /* background-image: url(./images/forklift); */
+  background-color: rgb(50, 140, 185);
+  background-position: center;
+  position: relative;
+  height: 450px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.npm-content {
+  margin: 5% 20% 0% 20%;
+  position: absolute;
+  width: 30%;
+}
+
+.npm-explained a {
+  float: center;
+  background-color: rgb(49, 68, 88);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+  /* MIDDLE: Third section */
+
+.third-content{
+  font-family: sans-serif;
+  margin: 0% 20% 0% 20%;
+}
+.third-section-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.three-blocks {
+  position: relative;
+  display: block;
+
+}
+
+.three-blocks div {
+  width: 33%;
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+  align-items: bottom;
+}
+
+.three-blocks img {
+  height: 100px;
+}
